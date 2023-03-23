@@ -1,4 +1,5 @@
 package com.bridgelabz.FunctionalProgramingProblems;
+
 import java.util.Scanner;
 
 public class LargestAmongThreeNUmbers {
@@ -13,15 +14,12 @@ public class LargestAmongThreeNUmbers {
 		int numberthree = number.nextInt();
 		if (numberone > numbertwo && numberone > numberthree) {
 			System.out.println("The first number is the Largest Number .");
-			
-		}else if (numbertwo > numberone && numbertwo > numberthree) {
+
+		} else if (numbertwo > numberone && numbertwo > numberthree) {
 			System.out.println("The second number is the Largest Number .");
-		}else {
+		} else {
 			System.out.println("The third number is the Largest Number .");
 		}
-		
-		
-		
 
 	}
 
